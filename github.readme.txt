@@ -1,0 +1,7 @@
+git add .
+
+git commit -m "Definicao da estrutura da aplicacao"
+
+git remote add origin https://github.com/lholanda/nodejs-mongodb-restfull-crud.git
+
+git push -u origin master

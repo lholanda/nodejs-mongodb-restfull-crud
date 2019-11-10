@@ -4,7 +4,7 @@
   "description": "Codigos desenvolvidos para CRUD com node.js",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "dev":"nodemon"
   },
   "dependencies": {
     "body-parser": "1.19.0",
@@ -13,5 +13,8 @@
     "request": "2.88.0"
   },
   "author": "Luiz Holanda",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
